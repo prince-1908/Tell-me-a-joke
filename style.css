@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background: url("https://thumbs.dreamstime.com/b/joke-realistic-neon-sign-brick-wall-background-d-rendered-royalty-free-stock-image-can-be-used-online-banner-ads-direct-87935889.jpg");
+  }
+  
+  .heading{
+    color: #fdfed9b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    font-size: 5rem;
+    text-shadow: 3px 4px 2px black;
+  }
+  
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15rem;
+  }
+  .btn{
+    padding: 20px 20%;
+    background-color: #ffffff57;
+    border-radius: 40px;
+    transition: all 200ms;
+  }
+  .btn:hover{
+    color: white;
+    border: 5px solid white;
+    background-color: #006666;
+    box-shadow: 0px 0px 10px white;
+  }
+  .btn:active{
+    color: white;
+    border: 3px solid white;
+    background-color: #006666;
+    box-shadow: 0px 0px 10px black;
+  }
+  #joke{
+    background-color: #121212;
+    color: blue;
+    height: 75vh;
+    width: 62vw;
+    border: 20px solid blue;
+    border-radius: 80px;
+    box-shadow: 0px 0px 30px 19px cyan;
+  }
+  #joke-cont{
+    display:none;
+      height: 99vh;
+      width: 99vw;
+      position: absolute;
+      top: 8%;
+      left: 16%;
+  }
+  
+  #jokeLine{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    padding: 0 34px;
+  }
+  #jokeBtnCont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 19%;
+  }
+  .joke-btn{
+    padding: 2% 20%;
+    border-radius: 20px; 
+  }
